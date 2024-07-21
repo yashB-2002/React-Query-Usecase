@@ -14,11 +14,11 @@ function Home() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          title: 'test product',
-          price: 13.5,
-          description: 'lorem ipsum set',
+          title: 'New Product',
+          price: 200,
+          description: 'This is new product.',
           image: 'https://i.pravatar.cc',
-          category: 'electronic',
+          category: 'clothing',
         }),
       });
       if (!response.ok) {
